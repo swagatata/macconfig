@@ -9,18 +9,18 @@ alias mc="make clean"
 
 # git shortcuts
 # alias g="git "
-alias gst="git status"
+alias gs="git status"
 alias gd="git diff --word-diff=color"
 alias gc="git diff --cached --word-diff=color"
 alias gshow="git show --pretty=\"format:\" --name-only"
 alias gl="git log --word-diff=color --stat"
 alias gl1="git log --word-diff=color --stat --oneline"
-alias gpl="git pull"
-alias gpsh="git push"
-alias gct="git commit"
+alias gl="git pull"
+alias gp="git push"
+alias gc="git commit"
 alias gsh="git stash"
 alias gh="git help"
-alias gch="git checkout"
+alias gck="git checkout"
 alias gunstage="git checkout -- " 
 
 #export PATH=$PATH:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin
