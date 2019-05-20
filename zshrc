@@ -23,6 +23,10 @@ alias gh="git help"
 alias gck="git checkout"
 alias gunstage="git checkout -- " 
 
+# fb alias
+alias dev1="et devvm4836.lla1.facebook.com:8082"
+alias dev2="ssh devvm2686.lla2.facebook.com"
+
 #export PATH=$PATH:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin
 #export PATH=$PATH:/Users/swagat/tools/sbt/bin
 #export PATH=$PATH:/Users/swagat/ubuntu/ubuntu/google_appengine
@@ -38,3 +42,9 @@ alias gunstage="git checkout -- "
 #export PATH=$PATH:$MAVEN_HOME/bin
 
 #export PYTHONSTARTUP=~/.pythonrc
+export PATH="$HOME/.jenv/bin:$PATH"
+eval "$(jenv init -)"
+
+export PATH="$(pyenv root)/shims:$PATH"
+
+source $(pyenv root)/completions/pyenv.zsh
