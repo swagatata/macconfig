@@ -1,20 +1,15 @@
 # Customize to your needs...
-alias cl="clear"
-alias s5="ssh swagat-5.desktop.amazon.com"
-alias mfp="ssh javary-mysize-12001.dub2.amazon.com"
-alias ubuntu="ssh swagat-ubuntu.aka.amazon.com"
-alias qa="ssh integ-node-64043.pdx4.amazon.com"
 
 alias mc="make clean"
 
 # git shortcuts
 # alias g="git "
-alias gs="git status"
-alias gd="git diff --word-diff=color"
+alias status="git status"
+alias diff="git diff --word-diff=color"
 alias gc="git diff --cached --word-diff=color"
-alias gshow="git show --pretty=\"format:\" --name-only"
+alias show="git show --pretty=\"format:\" --name-only"
 alias gl="git log --word-diff=color --stat"
-alias gl1="git log --word-diff=color --stat --oneline"
+alias gl="git log --word-diff=color --stat --oneline"
 alias gl="git pull"
 alias gp="git push"
 alias gc="git commit"
@@ -33,9 +28,6 @@ alias dev2="ssh devvm2686.lla2.facebook.com"
 #export PATH=$PATH:~/Cloud9BrazilBuild-1.0/bin
 #export PATH=$PATH:~/Downloads/eclipse/
 #export PATH=$PATH:/usr/local/opt/gettext/bin/
-#s4
-
-#alias bb="brazil-build"
 
 #maven
 #export MAVEN_HOME=/Users/swagat/libs/apache-maven-3.2.1
@@ -43,8 +35,11 @@ alias dev2="ssh devvm2686.lla2.facebook.com"
 
 #export PYTHONSTARTUP=~/.pythonrc
 export PATH="$HOME/.jenv/bin:$PATH"
-eval "$(jenv init -)"
+# eval "$(jenv init -)"
 
-export PATH="$(pyenv root)/shims:$PATH"
+# export PATH="$(pyenv root)/shims:$PATH"
 
-source $(pyenv root)/completions/pyenv.zsh
+# source $(pyenv root)/completions/pyenv.zsh
+# ln ~/code/macconfig/vimrc ~/.vimrc
+# Fix for gnome terminal
+[[ -f /etc/profile.d/vte.sh ]] && . /etc/profile.d/vte.sh
