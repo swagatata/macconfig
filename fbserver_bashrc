@@ -1,0 +1,29 @@
+alias hal='hh && arc lint'
+alias hphpd='hphpd -h localhost'
+alias jfn='jfd -n'
+alias ab='arc build'
+alias al='arc lint'
+alias arb='arc rebuild'
+alias dnm="dumont authenticity_name_match --configerator_path /home/konchada/local/configerator -c docauth_tests_US_small --sandbox konchada.sb"
+alias upd='hg amend && jfn'
+alias hgc="hg checkout"
+alias hga="hg amend"
+alias master="hgc master"
+alias latest="hg shelve ; hg pull && hg rebase -d master && hg unshelve"
+alias diff="hg diff"
+alias status="hg status"
+alias revert="hg revert --all"
+alias stash="hg shelve"
+alias unstash="hg unshelve"
+alias hhj="hal && hga && jfn"
+
+# repos
+alias conf="cd ~/local/configerator"
+alias dswarm="cd ~/fbsource/fbcode/dataswarm-pipelines/"
+alias www="cd ~/www"
+alias fbc="cd ~/fbsource/fbcode"
+alias test="arc unit --no-time-limit"
+
+alias dts="dumont parsed_claimed_name_match --configerator_path ~/local/configerator/ --list_testsets"
+alias dnm="dumont parsed_claimed_name_match --configerator_path ~/local/configerator/ -c docauth_tests_US_small"
+alias dnm2="dumont profile_claimed_name_match --configerator_path ~/local/configerator/ -c tests_US_small"
