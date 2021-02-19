@@ -1,4 +1,4 @@
 ncurses
 pcre
-zsh
-zsh-completions
+fish
+keith/formulae/reminders-cli

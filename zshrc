@@ -43,3 +43,4 @@ export PATH="$HOME/.jenv/bin:$PATH"
 # ln ~/code/macconfig/vimrc ~/.vimrc
 # Fix for gnome terminal
 [[ -f /etc/profile.d/vte.sh ]] && . /etc/profile.d/vte.sh
+fish
