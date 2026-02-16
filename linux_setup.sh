@@ -1,3 +1,5 @@
+sudo sh -c 'echo "" >> /etc/hosts && echo "# Block lichess.org" >> /etc/hosts && echo "127.0.0.1 lichess.org" >> /etc/hosts && echo "127.0.0.1 www.lichess.org" >> /etc/hosts'
+   sudo sh -c 'echo "" >> /etc/hosts && echo "# Block x.com" >> /etc/hosts && echo "127.0.0.1 x.com" >> /etc/hosts && echo "127.0.0.1 www.x.com" >> /etc/hosts'
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/Linuxbrew/install/master/install.sh)"
 sudo yum groupinstall 'Development Tools'
 test -d ~/.linuxbrew && eval $(~/.linuxbrew/bin/brew shellenv)
